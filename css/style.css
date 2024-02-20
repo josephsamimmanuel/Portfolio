@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/google-sans');
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
     font-family: 'Product Sans', sans-serif;
 }
@@ -40,6 +40,10 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+#project p{
+    color: black;
+    text-decoration: underline;
+}
 #project h2{
     text-align: center;
     color: #150734;
@@ -59,8 +63,8 @@
     object-fit: cover;
 }
 #contact{
-    padding-top: 70px;
-    padding-bottom: 70px;
+    /* padding-top: 70px;
+    padding-bottom: 70px; */
     background-color: #150734;
     text-align: center;
 }
@@ -80,4 +84,7 @@
     gap: 25px;
     margin-top: 10px;
 }
-
+#welcome_footer{
+    text-align: center;
+    color: white;
+}
